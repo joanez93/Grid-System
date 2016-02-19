@@ -3,15 +3,18 @@
 	-Autor: Joanez Andrades
 	-12/08/2015
 
-	------------------------------
-	.grd's = Grades de 0 à 100%;
 ----------------------------------- */
 
 .container{
 	width: 100%;
 }
 
-/*--- Grades */
+/*--- Grades ---
+	*As grades foram divididas em 10x100;
+	*Não temos margens entre as grades;
+	*O objetivo das grades é separar o conteúdo sem perda de espaço;
+	*A ideia principal das grades é usá-las como container para as colunas;
+*/
 .grd-100, 
 .grd-90, 
 .grd-80,
@@ -37,6 +40,12 @@
 .grd-10{width: 10%;}
 
 
+/*--- Colunas ---
+	*As colunas foram divididas em 10x100;
+	*Cada coluna tem .25% dos 100% de margem na direita e na esquerda;
+	*Essa margem, obviamente, é .25% do tamanho da tag PAI;
+	*O tamanho de cada coluna debita essa margem;
+*/
 
 .col-1,
 .col-2,
